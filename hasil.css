@@ -41,7 +41,7 @@
 }
 
 body {
-    margin-top: 2200px;
+    margin-top: 1500px;
     background-color: #005dd6;
     display: flex;
     flex-direction: column;
@@ -152,8 +152,8 @@ body {
     margin: 0;
 }
 
-.title {
-    margin-top: 1000px;
+.judul {
+    margin-top: 400px;
 }
 
 .YOGIS {
@@ -195,7 +195,7 @@ body {
 .title {
     font-family: 'Gasoek One';
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 50px;
     color: white;
     -webkit-text-stroke: 2px black;
