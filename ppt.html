@@ -4,7 +4,7 @@
 <head>
     <title>Yogi's Presentation</title>
     <link rel="stylesheet" href="ppt.css">
-    <link rel="icon" href="/picture/favicon.ico" type="image/png">
+    <link rel="icon" href="favicon.ico" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -64,9 +64,9 @@
     <div class="title">
         <h1 class="YOGIS">YOGI'S</h1>
         <div class="clouds">
-            <img src="/picture/cloud.png" alt="cloud" class="cloud">
+            <img src="cloud.png" alt="cloud" class="cloud">
             <h1 class="PENDAHULUAN">PRESENTATION</h1>
-            <img src="/picture/cloud.png" alt="cloud" class="cloud">
+            <img src="cloud.png" alt="cloud" class="cloud">
         </div>
     </div>
 
@@ -95,4 +95,19 @@
     </div>
     <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGicn-WokI&#x2F;4TpZNfXcA2Q9BPVdleR4fQ&#x2F;view?utm_content=DAGicn-WokI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
         target="_blank" rel="noopener">
+
+    <script>
+        gsap.from('.YOGIS', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out'
+        });
+
+        gsap.from('.PENDAHULUAN', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out',
+            delay: 0.5
+        });
+    </script>
 </body>

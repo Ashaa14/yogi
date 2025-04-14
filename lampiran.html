@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yogi's Gallery</title>
-    <link rel="icon" href="/picture/favicon.ico" type="image/png">
+    <link rel="icon" href="favicon.ico" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="lampiran.css">
 </head>
@@ -58,9 +58,9 @@
     <div class="title">
         <h1 class="YOGIS">YOGI'S</h1>
         <div class="clouds">
-            <img src="/picture/cloud.png" alt="cloud">
+            <img src="cloud.png" alt="cloud">
             <h1 class="PENDAHULUAN">LAMPIRAN</h1>
-            <img src="/picture/cloud.png" alt="cloud">
+            <img src="cloud.png" alt="cloud">
         </div>
     </div>
 
@@ -76,62 +76,62 @@
         <div class="gallery">
             <!-- Gallery Items -->
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/5.png" alt="Nature landscape">
+                <img src="Untitled design (2)/5.png" alt="Nature landscape">
                 <div class="caption">Pembelian Bahan</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/4.png" alt="Architecture">
+                <img src="Untitled design (2)/4.png" alt="Architecture">
                 <div class="caption">Pembuatan Maskot</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/1.png" alt="City skyline">
+                <img src="Untitled design (2)/1.png" alt="City skyline">
                 <div class="caption">Pembuatan Konten Promosi</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/2.png" alt="Wildlife">
+                <img src="Untitled design (2)/2.png" alt="Wildlife">
                 <div class="caption">Pembuatan Gelang</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/6.png" alt="Portrait">
+                <img src="Untitled design (2)/6.png" alt="Portrait">
                 <div class="caption">Testing Es Cendol</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/7.png" alt="Food">
+                <img src="Untitled design (2)/7.png" alt="Food">
                 <div class="caption">Pembuatan Lilin Biotek</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/9.png" alt="foto">
+                <img src="Untitled design (2)/9.png" alt="foto">
                 <div class="caption">Dekor Booth</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/11.png" alt="foto">
+                <img src="Untitled design (2)/11.png" alt="foto">
                 <div class="caption">Proses Packing PO</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/8.png" alt="Travel">
+                <img src="Untitled design (2)/8.png" alt="Travel">
                 <div class="caption">Hari-H Bazaar</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/10.png" alt="foto">
+                <img src="Untitled design (2)/10.png" alt="foto">
                 <div class="caption">Booth Hari-H</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/12.png" alt="foto">
+                <img src="Untitled design (2)/12.png" alt="foto">
                 <div class="caption">Hormat Plushie Yogi</div>
             </div>
 
             <div class="gallery-item">
-                <img src="/picture/Untitled design (2)/13.png" alt="foto">
+                <img src="Untitled design (2)/13.png" alt="foto">
                 <div class="caption">Perlita Nunjuk Poster</div>
             </div>
         </div>
@@ -169,6 +169,19 @@
             if (event.target === modal) {
                 modal.style.display = 'none';
             }
+        });
+
+        gsap.from('.YOGIS', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out'
+        });
+
+        gsap.from('.PENDAHULUAN', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out',
+            delay: 0.5
         });
     </script>
 </body>

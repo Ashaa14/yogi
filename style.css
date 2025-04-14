@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+p{
+    font-family: 'Cuprum';
+}
+
 body {
     background-color: #005dd6;
     display: flex;
@@ -440,4 +444,5 @@ h1 span {
     border-radius: 10px;
     font-size: 12px;
     font-weight: bold;
+    font-family: 'Pixelify';
 }

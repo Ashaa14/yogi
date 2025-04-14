@@ -7,8 +7,41 @@
     box-sizing: border-box;
 }
 
+.title-animate {
+    animation: popIn 0.7s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+.cloud {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px;
+    opacity: 0.8;
+    animation: float 5s ease-in-out infinite;
+    z-index: -1;
+    padding-right: 80px;
+}
+
+.cloud:nth-child(1) {
+    left: 10%;
+    top: 20%;
+    animation-duration: 6s;
+}
+
+.cloud:nth-child(2) {
+    left: 30%;
+    top: 10%;
+    animation-duration: 8s;
+}
+
+.cloud:nth-child(3) {
+    left: 70%;
+    top: 25%;
+    animation-duration: 7s;
+}
+
 body {
-    margin-top: 1980px;
+    margin-top: 1700px;
     background-color: #005dd6;
     display: flex;
     flex-direction: column;
@@ -120,12 +153,10 @@ body {
 }
 
 .title {
-    margin-top: 2000px;
-    margin-bottom: -5px;
+    margin-top: 1000px;
 }
 
 .YOGIS {
-    margin-top: 1000;
     color: white;
     text-align: center;
     font-size: 100px;
