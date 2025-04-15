@@ -12,6 +12,23 @@
     animation: popIn 0.7s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
 }
 
+.btn {
+    background-color: #ffcc00;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px black;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
 .cloud {
     position: absolute;
     width: 400px;
